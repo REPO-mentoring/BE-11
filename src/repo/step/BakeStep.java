@@ -13,6 +13,4 @@ public class BakeStep implements Step {
     public String name() {
         return "굽기";
     }
-
-
 }

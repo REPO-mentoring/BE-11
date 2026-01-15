@@ -9,11 +9,10 @@ public class EspressoStation extends Station {
     public EspressoStation(String stationId, String location) {
         super(stationId, location);
     }
+
     @Override
     public boolean canHandle(Step step) {
-        return step instanceof ExtractEspressoStep
-                ||step instanceof GrindBeansStep;
-
+        return step instanceof ExtractEspressoStep ||step instanceof GrindBeansStep;
     }
     public void execute(Step step, Order order){
         powerOn();

@@ -20,6 +20,4 @@ public class BlenderStation extends Station {
         step.run(order);
         powerOff();
     }
-
-
 }

@@ -28,7 +28,6 @@ public class Main {
                 new SteamMilkStep(),
                 new GrindBeansStep()
         );
-
         Payable payment = new CardPayment();
 
         Order order = new Order("주문1","라떼",4500,steps,payment);

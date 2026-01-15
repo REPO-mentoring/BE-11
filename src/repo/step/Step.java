@@ -6,5 +6,4 @@ public interface Step {
     public void run(Order order);
 
     public String name();
-
 }
